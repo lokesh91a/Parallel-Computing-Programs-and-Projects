@@ -1,0 +1,106 @@
+Strong scaling
+
+30 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(30,500,987134)" 60 320000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 40000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 20000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 13333 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 10000 2
+
+*******************************************************
+
+40 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(40,500,987134)" 60 320000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 40000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 20000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 13333 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 10000 2
+
+*******************************************************
+
+60 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(60,500,987134)" 60 320000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 40000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 20000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 13333 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 10000 2
+
+*******************************************************
+
+70 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(70,500,987134)" 60 320000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 40000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 20000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 13333 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 10000 2
+
+*******************************************************
+
+80 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(80,500,987134)" 60 320000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 40000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 20000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 13333 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 10000 2
+
+*******************************************************
+*******************************************************
+*******************************************************
+
+Weak scaling 
+
+30 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(30,500,987134)" 60 160000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(30,500,987134)" 60 80000 2
+
+*******************************************************
+
+40 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(40,500,987134)" 60 160000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(40,500,987134)" 60 80000 2
+
+*******************************************************
+
+60 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(60,500,987134)" 60 160000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(60,500,987134)" 60 80000 2
+
+*******************************************************
+
+70 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(70,500,987134)" 60 160000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(70,500,987134)" 60 80000 2
+
+*******************************************************
+
+80 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPMain "RandomPointGroup(80,500,987134)" 60 160000 
+java pj2 jar=myprogram.jar workers=1 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=2 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=3 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 80000 2
+java pj2 jar=myprogram.jar workers=4 SmpTSPMain "RandomPointGroup(80,500,987134)" 60 80000 2
+
+*******************************************************
+

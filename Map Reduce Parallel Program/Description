@@ -1,0 +1,6 @@
+This Program uses PJ2 library developed by Alan Kaminsky which supports writing parallel programs for 
+clusters, gpus and also supports Hadoop.
+
+This program implements Map-Reduce parallel program using Parallel Java Map Reduce (PJMR) framework in 
+the Parallel Java 2 Library for DNA Sequence Querying.
+URL for full problem statement: https://www.cs.rit.edu/~ark/fall2016/654/p4/p4.shtml

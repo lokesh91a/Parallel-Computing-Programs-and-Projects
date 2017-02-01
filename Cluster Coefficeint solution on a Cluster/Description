@@ -1,0 +1,8 @@
+This Program uses PJ2 library developed by Alan Kaminsky which supports writing parallel programs for 
+clusters, gpus and also supports Hadoop.
+
+This program calculates the cluster coefficeint.
+A graph's clustering coefficient CC is defined to be the ratio of the number of triplets that are part of triangles in the graph to the total number of triplets in the graph:
+CC = 3 ⋅ (number of triangles) / (number of triplets)
+
+It takes input as a Random Graph which is produced by using the same PJ2 library.

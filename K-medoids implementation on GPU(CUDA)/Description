@@ -1,0 +1,7 @@
+This Program uses PJ2 library developed by Alan Kaminsky which supports writing parallel programs for 
+clusters, gpus and also supports Hadoop.
+
+This program implements K-medoids clustering algorithm.
+URL for full problem statement: https://www.cs.rit.edu/~ark/fall2016/654/p3/p3.shtml
+
+For this, we also needed to write a kernel in C language using CUDA.

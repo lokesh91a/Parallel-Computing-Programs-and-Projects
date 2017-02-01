@@ -1,0 +1,5 @@
+This Program uses PJ2 library developed by Alan Kaminsky which supports writing parallel programs for 
+clusters, gpus and also supports Hadoop.
+This program gives the values of x,y and z which satisfies the modifies version of Diophantine equation:
+x^n + y^n = z^n + c
+Input: input is given as 4 parameters: a b c d where n=a, c=b and x,y,x can be in the range of [c,d]
